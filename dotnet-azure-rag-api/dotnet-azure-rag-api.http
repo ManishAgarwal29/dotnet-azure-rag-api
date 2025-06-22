@@ -1,6 +1,0 @@
-@dotnet_azure_rag_api_HostAddress = http://localhost:5275
-
-GET {{dotnet_azure_rag_api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
