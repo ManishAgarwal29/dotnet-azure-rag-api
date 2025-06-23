@@ -1,7 +1,7 @@
-﻿using Dotnet_Azure_Rag_Api.Services.Interfaces;
-using Microsoft.AspNetCore.Mvc;
+﻿using Dotnet_Azure_Rag_Api.Authorization;
 using Dotnet_Azure_Rag_Api.Models;
-using Dotnet_Azure_Rag_Api.Services;
+using Dotnet_Azure_Rag_Api.Services.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Dotnet_Azure_Rag_Api.Controllers
 {
@@ -31,6 +31,7 @@ namespace Dotnet_Azure_Rag_Api.Controllers
         /// <param name="file">The PDF file to upload and process.</param>
         /// <returns>Upload PDF response.</returns>
         [HttpPost("upload-pdf")]
+        [ApiKeyAuthorize] // Custom attribute to check API key
         [RequestSizeLimit(100_000_000)] // e.g., limit to ~100MB
         public async Task<IActionResult> UploadPdf(IFormFile file)
         {
@@ -50,7 +51,7 @@ namespace Dotnet_Azure_Rag_Api.Controllers
                 // 2. Extract chunks
                 List<DocumentChunk> chunks = await _pdfProcessor.ExtractChunksAsync(pdfBytes);
                 _logger.LogInformation("Extracted {Count} chunks", chunks.Count);
-                // 3. For each chunk, generate embedding
+                // 3. For each chunk, generate parallel embedding
                 var embeddingTasks = chunks.Select(async chunk =>
                 {
                     chunk.Embedding = (await _openAiService.GetEmbeddingAsync(chunk.Content)).ToArray();
