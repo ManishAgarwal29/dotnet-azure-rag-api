@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\Manish\\GenAI\\AzureAI\\RAGImplementation\\dotnet\\dotnet-azure-rag-api\\dotnet-azure-rag-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDD5E958-678D-1E23-5593-2F898AEA497B}|dotnet-azure-rag-api.csproj|c:\\users\\asus\\desktop\\manish\\genai\\azureai\\ragimplementation\\dotnet\\dotnet-azure-rag-api\\dotnet-azure-rag-api\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDD5E958-678D-1E23-5593-2F898AEA497B}|dotnet-azure-rag-api.csproj|solutionrelative:controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Manish\\GenAI\\AzureAI\\RAGImplementation\\dotnet\\dotnet-azure-rag-api\\dotnet-azure-rag-api\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UploadController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Manish\\GenAI\\AzureAI\\RAGImplementation\\dotnet\\dotnet-azure-rag-api\\dotnet-azure-rag-api\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "Controllers\\UploadController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAMwDUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T05:19:43.501Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
