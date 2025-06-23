@@ -15,18 +15,18 @@ dotnet add package Azure.Core
 dotnet add package Azure.Identity
 dotnet add package PdfPig
 
-### Required Environment Variables
+## Required Environment Variables
 
-# Azure OpenAI
+### Azure OpenAI
 [System.Environment]::SetEnvironmentVariable("AzureOpenAI__ApiKey", "<your-openai-api-key>", "Machine")
 [System.Environment]::SetEnvironmentVariable("AzureOpenAI__Endpoint", "https://<your-openai-resource>.openai.azure.com/", "Machine")
 
-# Azure AI Search
+### Azure AI Search
 [System.Environment]::SetEnvironmentVariable("AzureSearch__ApiKey", "<your-search-api-key>", "Machine")
 [System.Environment]::SetEnvironmentVariable("AzureSearch__Endpoint", "https://<your-search-resource>.search.windows.net", "Machine")
 
-### Optional Environment Variable
+## Optional Environment Variable
 
-# Upload PDF API Endpoint
+### Upload PDF API Endpoint
 [System.Environment]::SetEnvironmentVariable("UPLOAD_API_KEY", "<your-secure-api-key>", "Machine")
 
