@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\Manish\\GenAI\\AzureAI\\RAGImplementation\\dotnet\\dotnet-azure-rag-api\\dotnet-azure-rag-api\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{FDD5E958-678D-1E23-5593-2F898AEA497B}|dotnet-azure-rag-api.csproj|c:\\users\\asus\\desktop\\manish\\genai\\azureai\\ragimplementation\\dotnet\\dotnet-azure-rag-api\\dotnet-azure-rag-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FDD5E958-678D-1E23-5593-2F898AEA497B}|dotnet-azure-rag-api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDD5E958-678D-1E23-5593-2F898AEA497B}|dotnet-azure-rag-api.csproj|c:\\users\\asus\\desktop\\manish\\genai\\azureai\\ragimplementation\\dotnet\\dotnet-azure-rag-api\\dotnet-azure-rag-api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDD5E958-678D-1E23-5593-2F898AEA497B}|dotnet-azure-rag-api.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDD5E958-678D-1E23-5593-2F898AEA497B}|dotnet-azure-rag-api.csproj|c:\\users\\asus\\desktop\\manish\\genai\\azureai\\ragimplementation\\dotnet\\dotnet-azure-rag-api\\dotnet-azure-rag-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDD5E958-678D-1E23-5593-2F898AEA497B}|dotnet-azure-rag-api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChatController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Manish\\GenAI\\AzureAI\\RAGImplementation\\dotnet\\dotnet-azure-rag-api\\dotnet-azure-rag-api\\Controllers\\ChatController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Manish\\GenAI\\AzureAI\\RAGImplementation\\dotnet\\dotnet-azure-rag-api\\dotnet-azure-rag-api\\Controllers\\ChatController.cs",
-              "RelativeToolTip": "Controllers\\ChatController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T19:01:24.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Manish\\GenAI\\AzureAI\\RAGImplementation\\dotnet\\dotnet-azure-rag-api\\dotnet-azure-rag-api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Manish\\GenAI\\AzureAI\\RAGImplementation\\dotnet\\dotnet-azure-rag-api\\dotnet-azure-rag-api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T19:01:19.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Manish\\GenAI\\AzureAI\\RAGImplementation\\dotnet\\dotnet-azure-rag-api\\dotnet-azure-rag-api\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Manish\\GenAI\\AzureAI\\RAGImplementation\\dotnet\\dotnet-azure-rag-api\\dotnet-azure-rag-api\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-22T18:17:26.951Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

@@ -7,6 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<AzureOpenAIOptions>(builder.Configuration.GetSection("AzureOpenAI"));
 builder.Services.Configure<AzureSearchOptions>(builder.Configuration.GetSection("AzureSearch"));
 
+var options = builder.Configuration.GetSection("AzureOpenAI").Get<AzureOpenAIOptions>();
+Console.WriteLine($"Loaded OpenAI Endpoint: {options?.Endpoint}");
+Console.WriteLine($"Loaded OpenAI Key: {(string.IsNullOrWhiteSpace(options?.ApiKey) ? "MISSING" : "LOADED")}");
+
 //HTTP Client
 builder.Services.AddHttpClient();
 

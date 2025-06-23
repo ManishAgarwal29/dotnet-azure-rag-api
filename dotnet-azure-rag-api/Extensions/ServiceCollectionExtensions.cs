@@ -13,6 +13,8 @@ namespace Dotnet_Azure_Rag_Api.Extensions
             services.AddScoped<IOpenAIService, OpenAIService>();
             services.AddScoped<ISearchService, SearchService>();
             services.AddScoped<IChatService, ChatService>();
+            services.AddScoped<IPdfProcessor, PdfProcessor>();
+            services.AddScoped<ISearchIndexService, SearchIndexService>();
             return services;
         }
     }

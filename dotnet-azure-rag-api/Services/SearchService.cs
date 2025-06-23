@@ -15,7 +15,7 @@ namespace Dotnet_Azure_Rag_Api.Services
         private readonly HttpClient _httpClient;
         private readonly AzureSearchOptions _options;
         private readonly ILogger<SearchService> _logger;
-        private readonly SearchClient _searchClient;
+        
 
         public SearchService(IOptions<AzureSearchOptions> options, IHttpClientFactory httpFactory, ILogger<SearchService> logger)
         {
@@ -23,7 +23,6 @@ namespace Dotnet_Azure_Rag_Api.Services
             _logger = logger;
             _httpClient = httpFactory.CreateClient();
             _httpClient.DefaultRequestHeaders.Add("api-key", _options.ApiKey);
-            _searchClient = new SearchClient(new Uri(_options.Endpoint), _options.IndexName, new AzureKeyCredential(_options.ApiKey));
         }
 
 
@@ -91,5 +90,6 @@ namespace Dotnet_Azure_Rag_Api.Services
                 throw;
             }
         }
+        
     }
 }
