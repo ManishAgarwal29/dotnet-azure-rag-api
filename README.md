@@ -30,3 +30,15 @@ dotnet add package PdfPig
 ### Upload PDF API Endpoint
 [System.Environment]::SetEnvironmentVariable("UPLOAD_API_KEY", "<your-secure-api-key>", "Machine")
 
+## Azure Resources Required
+
+Azure OpenAI Resource
+Azure AI Search Resource
+GPT-4o Chat Completion and text-embedding-ada-002 Embedding Models
+
+## Features
+
+API Key-based authorization for secured endpoint (e.g. PDF upload)
+PDF ingestion using PdfPig
+GPT-4o-powered chat completion
+Vector embedding and similarity search via Azure AI Search
