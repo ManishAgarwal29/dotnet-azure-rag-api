@@ -9,11 +9,11 @@ It allows users to:
 
 Install all required packages using:
 
-dotnet add package Azure.AI.OpenAI
-dotnet add package Azure.Search.Documents
-dotnet add package Azure.Core
-dotnet add package Azure.Identity
-dotnet add package PdfPig
+dotnet add package Azure.AI.OpenAI  
+dotnet add package Azure.Search.Documents  
+dotnet add package Azure.Core  
+dotnet add package Azure.Identity  
+dotnet add package PdfPig  
 
 ## Required Environment Variables
 
@@ -32,13 +32,13 @@ dotnet add package PdfPig
 
 ## Azure Resources Required
 
-Azure OpenAI Resource
-Azure AI Search Resource
-GPT-4o Chat Completion and text-embedding-ada-002 Embedding Models
+Azure OpenAI Resource  
+Azure AI Search Resource  
+GPT-4o Chat Completion and text-embedding-ada-002 Embedding Models  
 
 ## Features
 
-API Key-based authorization for secured endpoint (e.g. PDF upload)
-PDF ingestion using PdfPig
-GPT-4o-powered chat completion
-Vector embedding and similarity search via Azure AI Search
+API Key-based authorization for secured endpoint (e.g. PDF upload)  
+PDF ingestion    
+GPT-4o-powered chat completion  
+Vector embedding and similarity search via Azure AI Search  
